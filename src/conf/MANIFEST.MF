@@ -1,10 +1,24 @@
 Manifest-Version: 1.0
-Package: @package@
-Extension-Name: @name@
-Specification-Version: @version@
+Package: org.apache.commons.collections15
+Extension-Name: collections-generic
+Specification-Version: 4.01
 Specification-Vendor: LarvaLabs, Inc.
-Specification-Title: @title@
-Implementation-Version: @version@
+Specification-Title: Commons Collections
+Implementation-Version: 4.01
 Implementation-Vendor: LarvaLabs, Inc.
 Implementation-Vendor-Id: 
-
+Bundle-Name: Apache Commons Collections15
+Bundle-SymbolicName: org.apache.commons.collections15
+Bundle-Version: 4.01
+Export-Package: org.apache.commons.collections15;version="3.1.0",org.a
+ pache.commons.collections15.bag;version="3.1.0",org.apache.commons.co
+ llections15.bidimap;version="3.1.0",org.apache.commons.collections15.
+ buffer;version="3.1.0",org.apache.commons.collections15.collection;ve
+ rsion="3.1.0",org.apache.commons.collections15.comparators;version="3
+ .1.0",org.apache.commons.collections15.functors;version="3.1.0",org.a
+ pache.commons.collections15.iterators;version="3.1.0",org.apache.comm
+ ons.collections15.keyvalue;version="3.1.0",org.apache.commons.collect
+ ions15.list;version="3.1.0",org.apache.commons.collections15.map;vers
+ ion="3.1.0",org.apache.commons.collections15.multimap;version="3.1.0"
+ ,org.apache.commons.collections15.set;version="3.1.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.6
